@@ -1,0 +1,730 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 1285px;
+}
+
+main .hero_section .cards {
+  display: flex;
+  justify-content: space-between;
+}
+main .hero_section .cards .card {
+  padding-top: 190px;
+  width: 525px;
+}
+main .hero_section .cards .card h1 {
+  font-family: "Exo 2";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: left;
+  color: #363738;
+}
+main .hero_section .cards .card p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B6B6C;
+  padding-top: 40px;
+}
+main .hero_section .cards .card span {
+  display: inline-block;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #363738;
+  padding: 40px 0 10px 0px;
+  border-bottom: 3px solid #FFCE50;
+}
+main .hero_section .cards img {
+  margin-top: 109px;
+  width: 635px;
+  height: 505px;
+}
+main .section_2 {
+  padding-top: 67px;
+}
+main .section_2 .cards {
+  padding: 40px 0 40px 40px;
+  border: 1px solid #D7D7DD;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.4s ease;
+}
+main .section_2 .cards .card {
+  border-right: 1px solid #D7D7DD;
+  max-width: 250px;
+  padding: 20px;
+  border-radius: 6px;
+}
+main .section_2 .cards .card h1 {
+  padding-top: 20px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+}
+main .section_2 .cards .card p {
+  padding-top: 16px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_2 .cards:hover {
+  box-shadow: 3px 3px 6px 4px rgba(0, 0, 0, 0.6);
+}
+main .section_3 {
+  padding-top: 67px;
+}
+main .section_3 .bg_img {
+  background-image: url(../images/section_3_bg.png);
+  background-repeat: no-repeat;
+  margin-left: 200px;
+}
+main .section_3 .bg_img img {
+  margin-left: -200px;
+}
+main .section_3 .bg_img h1 {
+  width: 362px;
+  transform: translateY(-260px) translateX(-100px);
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: white;
+  z-index: 2;
+}
+main .section_3 .cards .group, main .section_3 .cards .group_2 {
+  display: flex;
+  justify-content: space-around;
+}
+main .section_3 .cards .group .card, main .section_3 .cards .group_2 .card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .section_3 .cards .group .card .texts, main .section_3 .cards .group_2 .card .texts {
+  width: 291px;
+}
+main .section_3 .cards .group .card .texts h1, main .section_3 .cards .group_2 .card .texts h1 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+}
+main .section_3 .cards .group .card .texts p, main .section_3 .cards .group_2 .card .texts p {
+  padding-top: 16px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_3 .cards .group_2 {
+  padding-top: 64px;
+}
+main .section_4 {
+  padding-top: 120px;
+}
+main .section_4 .theme h1 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+}
+main .section_4 .theme p {
+  font-family: "PT Sans";
+  padding-top: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B6B6C;
+  width: 460px;
+}
+main .section_4 .cards {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+main .section_4 .cards .card {
+  padding-bottom: 30px;
+  width: 393px;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+main .section_4 .cards .card h2 {
+  padding-left: 32px;
+  margin-top: 24px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #363738;
+}
+main .section_4 .cards .card p {
+  padding-left: 32px;
+  margin-top: 16px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_4 .cards .card span {
+  margin-left: 32px;
+  margin-top: 34px;
+  display: inline-block;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #363738;
+  border-bottom: 3px solid #FFCE50;
+}
+main .section_4 .cards .card:hover {
+  box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.3);
+}
+main .section_5 {
+  margin-top: 212px;
+  background-color: #0B7572;
+}
+main .section_5 .cards {
+  justify-content: space-around;
+  display: flex;
+}
+main .section_5 .cards span {
+  display: inline-block;
+  padding: 100px 0 708px 81px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: white;
+}
+main .section_5 .cards .card {
+  border-radius: 10px;
+  flex-direction: column;
+  margin-top: 85px;
+  width: 652px;
+  height: 747px;
+  background-color: white;
+}
+main .section_5 .cards .card .table_contact {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-around;
+}
+main .section_5 .cards .card .table_contact .table_text {
+  width: 274px;
+}
+main .section_5 .cards .card .table_contact .table_text p {
+  font-family: "PT Sans";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_5 .cards .card table {
+  margin: 54px 20px 20px 20px;
+  width: 588px;
+}
+main .section_5 .cards .card table thead {
+  color: #FFFFFF;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  height: 45px;
+  background-color: #0B7572;
+  opacity: 80;
+}
+main .section_5 .cards .card table tr {
+  text-align: center;
+  padding: 20px;
+}
+main .section_5 .cards .card table tr td {
+  padding: 10px;
+  width: 150px;
+  height: 140px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+main .section_5 .cards .card table tr td p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_5 .cards .card table tr td h3 {
+  padding-top: 16px;
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.9px;
+  text-align: left;
+  color: #363738;
+}
+main .section_5 .cards .card table tr td .yulduzlar {
+  display: flex;
+  width: 80px;
+}
+main .section_5 .cards .card table tr td h4 {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #363738;
+}
+main .section_5 .cards .card table td:nth-child(4) {
+  border-right: none !important;
+}
+main .section_6 {
+  margin-bottom: 120px;
+}
+main .section_6 .theme {
+  margin-top: 80px;
+}
+main .section_6 .theme h1 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+}
+main .section_6 .cards {
+  margin-top: 45px;
+}
+main .section_6 .cards .card {
+  padding: 32px 0 32px 96px;
+  width: 1183px;
+  height: 245px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+  display: flex;
+  justify-content: space-between;
+}
+main .section_6 .cards .card .group {
+  margin-right: 132px;
+}
+main .section_6 .cards .card .group h1 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: #363738;
+}
+main .section_6 .cards .card .group span {
+  display: inline-block;
+  margin-top: 24px;
+  height: 3px;
+  width: 86px;
+  background-color: #FFCE50;
+}
+main .section_6 .cards .card .group P {
+  margin-top: 24px;
+  width: 568px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_7 .theme h1 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+}
+main .section_7 .cards {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+main .section_7 .cards .cards_group {
+  justify-content: space-between;
+  display: flex;
+}
+main .section_7 .cards .cards_group .card {
+  width: 184px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section_7 .cards .cards_group .card h1 {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #363738;
+}
+main .section_7 .cards .cards_group .card p {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #6B6B6C;
+}
+main .section_7 .cards .cards_group span {
+  display: block;
+  height: 183px;
+  width: 3px;
+  background: #D7D7DD;
+}
+main .section_8 {
+  padding-top: 130px;
+}
+main .section_8 .theme h1 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+}
+main .section_8 .cards {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main .section_8 .cards .cards_group {
+  display: flex;
+  justify-content: space-between;
+}
+main .section_8 .cards .cards_group .card {
+  transition: all 0.4s ease;
+  display: flex;
+  align-items: center;
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+}
+main .section_8 .cards .cards_group .card:hover {
+  box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.3);
+}
+main .section_8 .cards .cards_group .card .card_color {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 51px;
+  height: 210px;
+  background: #0B7572;
+}
+main .section_8 .cards .cards_group .card .img {
+  margin-left: 32px;
+  margin-right: 40px;
+  width: 138px;
+  height: 138px;
+}
+main .section_8 .cards .cards_group .card .form h1 {
+  margin-top: 47px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #363738;
+}
+main .section_8 .cards .cards_group .card .form p {
+  margin-top: 12px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_8 .cards .cards_group .card .form span {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  width: 86px;
+  display: block;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #363738;
+  border-bottom: 3px solid #FFCE50;
+}
+main .section_8 .cards .cards_group .card .form .icons {
+  margin-bottom: 46px;
+  display: flex;
+  gap: 20px;
+}
+main .section_8 .cards .cards_group .card .form .icons img {
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+main .section_9 {
+  padding-top: 130px;
+}
+main .section_9 .theme {
+  margin-bottom: 94px;
+}
+main .section_9 .theme h1 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+}
+main .section_9 .contact {
+  margin-bottom: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+main .section_9 .contact .adres {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+main .section_9 .contact .adres .card {
+  width: 232px;
+  display: flex;
+}
+main .section_9 .contact .adres .card .text {
+  margin-left: 36px;
+}
+main .section_9 .contact .adres .card .text p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_9 .contact .adres .card .text h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #363738;
+}
+main .section_9 .contact .group {
+  width: 794px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+main .section_9 .contact .group .card {
+  height: 31px;
+  display: flex;
+  width: 674px;
+  justify-content: space-between;
+  border-bottom: 2px solid #E9EAF2;
+}
+main .section_9 .contact .group .card p {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #6B6B6C;
+}
+main .section_9 .contact .group .card h1 {
+  font-family: Exo 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #363738;
+}
+
+footer {
+  margin-top: 110px;
+  padding: 41px 0 35px 50px;
+  background: #0B7572;
+  color: #ffffff;
+  font-family: "Exo 2";
+}
+footer .footer_card {
+  display: flex;
+  gap: 20px;
+}
+footer .footer_card .cards {
+  display: flex;
+  gap: 200px;
+}
+footer .footer_card .cards .logo h1 {
+  font-family: "Familjen Grotesk";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0.16em;
+  text-align: left;
+}
+footer .footer_card .cards .card p {
+  font-family: "Exo 2";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+footer .footer_card .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+footer h5 {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  main .hero_section .cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  main .section_2 .cards {
+    flex-direction: column !important;
+    border: none !important;
+    box-shadow: none;
+  }
+  main .section_2 .cards .card {
+    display: flex;
+    border: none;
+    width: 690px !important;
+    max-width: 100%;
+    gap: 30px;
+  }
+  main .section_2 .cards .card:hover {
+    box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.3);
+  }
+  main .section_3 .cards {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  main .section_3 .cards .group, main .section_3 .cards .group_2 {
+    gap: 40px;
+    height: 100%;
+    flex-direction: column;
+  }
+  main .section_4 .cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+  main .section_5 .cards {
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .section_5 .cards span {
+    display: inline-block;
+    padding: 100px 0 40px 81px;
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+  }
+  main .section_5 .cards .card {
+    margin-top: 40px;
+  }
+  .section_6 .cards {
+    justify-content: center;
+    align-items: center;
+  }
+  .section_6 .cards .card {
+    width: 690px !important;
+  }
+  .section_6 .cards img {
+    display: none;
+  }
+  .section_7 .theme {
+    display: flex;
+    justify-content: center;
+  }
+  .section_7 .cards {
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .section_7 .cards .cards_group {
+    gap: 60px;
+    flex-direction: column;
+  }
+  .section_7 .cards .cards_group span {
+    display: none !important;
+  }
+  .section_8 .cards_group {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section_8 .cards_group .cards {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section_9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .section_9 .contact {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

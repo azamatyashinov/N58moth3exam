@@ -1,0 +1,820 @@
+$color1:#363738;
+$color2:#6B6B6C;
+$bgcolor1:#0B7572;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1285px;
+    
+}
+
+main{
+    .hero_section{
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            .card{
+                padding-top: 190px;
+                width: 525px;
+                h1{
+                    font-family: "Exo 2";
+                    font-size: 52px;
+                    font-weight: 600;
+                    line-height: 65px;
+                    text-align: left;
+                    color: $color1;
+                }
+                p{
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left; 
+                    color: $color2;
+                    padding-top: 40px;
+                                       
+                }
+                span{
+                    display: inline-block;
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: left;
+                    color: $color1;
+                    padding: 40px 0 10px 0px;
+                    border-bottom: 3px solid #FFCE50;
+                }
+            }
+            img{
+                margin-top: 109px;
+                width: 635px;
+                height: 505px;
+            }
+        }
+    }
+
+    .section_2{
+        padding-top: 67px;
+        .cards{
+            padding: 40px 0 40px 40px;
+            border: 1px solid #D7D7DD;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            transition: all .4s ease;
+            .card{
+                border-right: 1px solid #D7D7DD;
+              max-width: 250px;
+              padding: 20px;
+              border-radius: 6px;
+              h1{
+                padding-top: 20px;
+                font-family: "Exo 2";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                text-align: left;
+                color: $color1;                
+              }
+              p{
+                padding-top: 16px;
+                font-family: PT Sans;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: $color2;                
+              }
+            
+            }
+            &:hover{
+                box-shadow: 3px 3px 6px 4px rgb(0,0,0,.6);
+                
+              }
+        }
+        
+    }
+
+    .section_3{
+        padding-top: 67px;
+        .bg_img{
+            background-image: url(../images/section_3_bg.png);
+            background-repeat: no-repeat;
+            margin-left: 200px;
+            img{
+              margin-left: -200px;
+            }
+            h1{
+                width: 362px;
+                transform: translateY(-260px) translateX(-100px);
+                
+                font-family: "Exo 2";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: white;
+                z-index: 2;
+
+            }
+        }
+
+        .cards{
+            .group, .group_2{
+                // padding-top: 40px;
+                display: flex;
+                justify-content: space-around;
+                .card{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    .texts{
+                        width: 291px;
+                        h1{
+                            font-family: "Exo 2";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 27px;
+                            text-align: left;
+                            color: $color1;                            
+                        }
+                        p{
+                            padding-top: 16px;
+                            font-family: "PT Sans";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            text-align: left;
+                            color: $color2;                            
+                        }
+                    }
+                }
+            }
+            .group_2{
+                padding-top: 64px;
+            }
+        }
+    }
+
+    .section_4{
+        padding-top: 120px;
+        .theme{
+            h1{
+                font-family: "Exo 2";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: $color1;                
+            }
+            p{
+                font-family: "PT Sans";
+                padding-top: 32px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: $color2;
+                width:460px;
+            }
+        }
+        .cards{
+            margin-top: 56px;
+            display: flex;
+            justify-content: space-between;
+            .card{
+                padding-bottom: 30px;
+                width: 393px;
+                max-width: 100%;
+                h2{
+                    padding-left: 32px;
+                    margin-top: 24px;
+                    font-family: "Exo 2";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-align: left;
+                    color: $color1;
+                }
+                p{
+                    padding-left: 32px;
+                    margin-top: 16px;
+                    font-family: PT Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: $color2;                    
+                }
+                span{
+                    margin-left: 32px;
+                    margin-top: 34px;
+                    display: inline-block;
+                    font-family: "PT Sans";
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: left;
+                    color: $color1;
+                    border-bottom: 3px solid #FFCE50;
+                }
+                border-radius: 8px;
+                box-shadow: 2px 3px 3px 2px rgb(0,0,0,.2);
+                transition: all .4s ease;
+                &:hover{
+                    box-shadow: 4px 4px 8px 6px rgb(0,0,0,.3);
+                }
+            }
+        }
+    }
+
+    .section_5{
+        margin-top: 212px;
+        background-color: $bgcolor1;
+            .cards{
+                justify-content: space-around;
+                display: flex;
+                span{
+                    display: inline-block;
+                    padding: 100px 0 708px 81px;
+                    font-family: "Exo 2";
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 60px;
+                    text-align: left;
+                    color: white;
+                }
+                .card{
+                    // display: flex;justify-content: center;align-items: center;
+                    border-radius: 10px;
+                    flex-direction: column;
+                    margin-top: 85px;
+                    width: 652px;
+                    height: 747px;
+                    background-color: white;
+                    .table_contact{
+                        margin-top: 28px;
+                        display: flex;
+                        justify-content: space-around ;
+                        .table_text{
+                            width: 274px;
+                            p{
+                                font-family: "PT Sans";
+                                font-size: 11px;
+                                font-weight: 400;
+                                line-height: 16.5px;
+                                text-align: left;
+                                color: $color2;
+                            }
+                        }
+                    }
+                    
+                    table{
+                        margin: 54px 20px 20px 20px;
+                        width: 588px;
+                        
+                        thead{
+                            color: #FFFFFF;
+                            font-family: "Exo 2";
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            text-align: left;
+
+                            height: 45px;
+                            background-color: #0B7572;
+                            opacity: 80;
+                        }
+                        tr{
+                            text-align: center;
+                            padding: 20px;
+                            
+                           
+                            td{
+                                padding: 10px;
+                                width: 150px;
+                                height: 140px;
+                                border-right: 1px solid rgb(0, 0,0, .2);
+                                border-bottom: 1px solid rgb(0,0,0, .2);
+                                
+                                p{
+                                    font-family: "PT Sans";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    text-align: left;
+                                    color: $color2;
+    
+                                }
+                                h3{
+                                    padding-top: 16px;
+                                    font-family: "Exo 2";
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    line-height: 18.9px;
+                                    text-align: left;
+                                    color: $color1;
+                                }
+                                .yulduzlar{
+                                    display: flex;
+                                    width: 80px;
+                                }
+                                h4{
+                                    font-family: "PT Sans";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 18.9px;
+                                    text-align: left;
+                                    color: $color1;
+                                }
+
+                            }
+                        }
+                        td:nth-child(4){
+                            border-right: none !important;
+                        }
+                    }
+                }
+            }
+    }
+
+    .section_6{
+        margin-bottom: 120px;
+        .theme{
+            margin-top: 80px;
+            h1{
+                font-family: "Exo 2";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: $color1;
+            }
+        }
+        .cards{
+            margin-top: 45px;
+            .card{
+                padding: 32px 0 32px 96px;
+                width: 1183px;
+                height: 245px;
+                box-shadow: 0px 4px 15px 0px #0000001F;
+
+                display: flex;
+                justify-content: space-between;
+                .group{
+                    margin-right: 132px;
+                    h1{
+                        font-family: "Exo 2";
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        text-align: left;
+                        color: $color1;
+                    }
+                    span{
+                        display: inline-block;
+                        margin-top: 24px;
+                        height: 3px;
+                        width: 86px;
+                        background-color: #FFCE50;
+                    }
+                    P{
+                        margin-top: 24px;
+                        width: 568px;
+                        font-family: "PT Sans";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: left;
+                        color: $color2;
+                    }
+                }
+            }
+        }
+    }
+
+    .section_7{
+       
+        .theme{
+            h1{
+                font-family: "Exo 2";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: $color1;
+            }
+        }
+        .cards{
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+            .cards_group{
+                justify-content: space-between;
+                display: flex;
+                .card{
+                    width: 184px ;
+                    height: 183px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    // justify-content: center;
+                    align-items: center;
+                    h1{
+                        font-family: Exo 2;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 27px;
+                        text-align: center;
+                        color: $color1;
+                    }
+                    p{
+                        font-family: PT Sans;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        text-align: center;
+                        color: $color2;
+
+                    }
+                 
+                }
+                span{
+                    display: block;
+                    height: 183px;
+                    width: 3px;
+                    background: #D7D7DD;
+                }
+            }
+        }
+    }
+
+    .section_8{
+        padding-top: 130px;
+        .theme{
+            h1{
+                font-family: "Exo 2";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: $color1;
+            }
+        }
+
+        .cards{
+            margin-top: 72px;
+            display: flex;
+            flex-direction: column;
+            
+            gap: 24px;
+            .cards_group{
+                display: flex;
+                justify-content: space-between;
+                .card{
+                    transition: all .4s ease;
+                    display: flex;
+                    align-items: center;
+                    width: 605px;
+                    height: 210px;
+                    border-radius: 10px;
+                    &:hover{
+                        box-shadow: 4px 4px 8px 6px rgb(0,0,0,.3);
+                    }
+                    .card_color{
+                        border-top-left-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        width: 51px;
+                        height: 210px;
+                        background: $bgcolor1;
+                    }
+                    .img{
+                        margin-left: 32px;
+                        margin-right: 40px;
+                        width: 138px;
+                        height: 138px;
+                    }
+                    .form{
+                        h1{
+                            margin-top: 47px;
+                            font-family: "Exo 2";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            text-align: left;
+                            color: $color1;                         
+                        }
+                        p{
+                            margin-top: 12px;
+                            font-family: "PT Sans";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            text-align: left;
+                            color: $color2;
+                        }
+                        span{
+                            margin-top: 15px;
+                            margin-bottom: 35px;
+                            width: 86px;
+                            display: block;
+                            font-family: "PT Sans";
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            text-align: left;
+                            color: $color1;
+                            border-bottom: 3px solid #FFCE50;
+                        }
+                        .icons{
+                            margin-bottom: 46px;
+                            display: flex;
+                            gap: 20px ;
+                            img{
+                                display: block;
+                                width: 22px;height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section_9{
+        padding-top: 130px;
+        .theme{
+            margin-bottom: 94px;
+            h1{
+                font-family: "Exo 2";
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                color: $color1;
+            }
+        }
+        .contact{
+            margin-bottom: 94px;
+            display: flex;
+            justify-content: space-between;
+            .adres{
+                display: flex;
+                flex-direction: column;
+                gap: 44px;
+                .card{
+                    width: 232px;
+                    display: flex;
+                
+                    .text{
+                        margin-left: 36px;
+                        p{
+                            font-family: "PT Sans";
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            text-align: left;
+                            color: $color2;
+                        }
+                        h4{
+                            font-family: "Exo 2";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            text-align: left;
+                            color: $color1;
+                        }
+                    }
+                }
+            }
+            .group{
+                width: 794px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 70px;
+                .card{
+                    height: 31px;
+                    display: flex;
+                    width: 674px;
+                    justify-content: space-between;
+                    border-bottom: 2px solid #E9EAF2;
+                    p{
+                        font-family: PT Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-align: left;
+                        color: $color2;
+                    }
+                    h1{
+                        font-family: Exo 2;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        text-align: left;
+                        color: $color1;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+footer{
+    margin-top: 110px;
+    padding: 41px 0 35px 50px;
+    background: $bgcolor1;
+    color: #ffffff;
+    font-family:"Exo 2" ;
+    .footer_card{
+        display: flex;
+        gap: 20px;
+        .cards{
+            display: flex;
+            // justify-content: space-between;
+            gap: 200px;
+            .logo{
+                h1{
+                    font-family: "Familjen Grotesk";
+                    font-size: 30px;
+                    font-weight: 500;
+                    line-height: 45px;
+                    letter-spacing: 0.16em;
+                    text-align: left;
+
+                }
+            }
+            .card{
+                p{
+                    font-family: "Exo 2";
+                    font-size: 8px;
+                    font-weight: 500;
+                    line-height: 12px;
+                    letter-spacing: 0.16em;
+                    text-align: left;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        .contact{
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+    }
+    h5{
+        margin-top: 80px;
+        text-align: center;
+        font-family: "Exo 2";
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.16em;
+        text-align: center;
+
+    }
+}
+
+
+
+@media  (max-width:800px){
+    main{
+        
+        .hero_section{
+            .cards{
+                flex-wrap: wrap;
+                flex-direction: column;
+                
+            }
+        }
+
+        .section_2{
+           .cards{
+            flex-direction: column !important;
+            border: none !important;
+            box-shadow: none;
+            .card{
+                display: flex;
+                border: none;
+                width: 690px !important;
+                max-width: 100%;
+                gap: 30px;
+                &:hover{
+                    box-shadow: 4px 4px 8px 6px rgb(0,0,0,.3);
+                }
+            }
+           }
+        }
+
+        .section_3{
+            .cards{
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 100%;
+                .group, .group_2{
+                    gap: 40px;
+                    height: 100%;
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .section_4{
+            .cards{
+                flex-direction: column;
+                gap: 40px;
+            }
+        }
+
+        .section_5{
+            .cards{
+                padding-bottom: 50px;
+                span{
+                    display: inline-block;
+                    padding: 100px 0 40px 81px;
+                    font-family: "Exo 2";
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 60px;
+                    text-align: left;
+                    color: white;
+                }
+                align-items: center;
+                flex-direction: column;
+                .card{
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+    .section_6{
+        .cards{
+            justify-content: center;
+            align-items: center;
+            .card{
+                width: 690px !important;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
+
+    .section_7{ 
+        .theme{
+          display: flex;justify-content: center;
+        }
+        .cards{
+            align-items: center;
+            justify-content: center;
+           display: flex !important;
+           flex-direction: row !important;
+           .cards_group{
+            gap: 60px;
+            span{
+                display: none !important;
+            }
+            flex-direction: column;
+           } 
+        }
+    }
+
+    .section_8{
+        .cards_group{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .cards{
+                gap: 40px;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    .section_9{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        .contact{
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+        }
+     
+    }
+}
